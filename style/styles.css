@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    border: rebeccapurple 3px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 12px;
+    padding:5px;
+    height: 70px;
+    background-color: #410239 ;
+    border-radius: 12px;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    width: 50%;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#logo_name{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 12px;
+    color: rgb(196, 173, 43);
+}
+#h1-about{
+    text-align: center;
+    margin: 22px 0;
+}
+
+.about-container{
+    border: 3px solid rebeccapurple;
+    margin: 12px;
+    padding:5px;
+    width: 100%;
+    border-radius: 12px;
+    background: #E5E5E5;
+    display: flex;    
+    position: relative;
+}
+.about-info{
+   padding: 20px;
+   margin: 12px;
+}
+
+.about-img{
+    width:310px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid rebeccapurple;
+}
+.btn-view-projects{
+    background: #410239;
+    color: #E5E5E5;
+    font-weight: bold;
+    border: 3px solid pink;
+    border-radius: 12px;
+    width: auto;
+    padding: 12px;
+    margin: 6px;
+    position: absolute;
+    bottom: 10px;
+    left: 9px;
+}
+.btn-get-intouch{
+    background: #410239;
+    color: #E5E5E5;
+    font-weight: bold;
+    border: 3px solid pink;
+    border-radius: 12px;
+    width: auto;
+    padding: 12px;
+    margin: 6px;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+}
+span{
+    color: #410239;
+    font-weight: bolder;
+}
