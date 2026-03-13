@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .nav-container{
-    border: rebeccapurple 3px solid;
+    border: 2px solid rebeccapurple;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,54 +41,165 @@
 }
 
 .about-container{
-    border: 3px solid rebeccapurple;
+    border: 2px solid rebeccapurple;
     margin: 12px;
     padding:5px;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
     border-radius: 12px;
     background: #E5E5E5;
-    display: flex;    
-    position: relative;
+    display: flex;
 }
+
 .about-info{
    padding: 20px;
    margin: 12px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+}
+
+.about-buttons{
+    display: flex;
+    gap: 10px;
 }
 
 .about-img{
-    width:310px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 3px solid rebeccapurple;
+    height: 100%;
+    max-width:310px;
+    height:auto;
+    object-fit:cover;
+    border-radius:12px;
+    border: 2px solid rebeccapurple;
 }
-.btn-view-projects{
-    background: #410239;
-    color: #E5E5E5;
-    font-weight: bold;
-    border: 3px solid pink;
-    border-radius: 12px;
-    width: auto;
-    padding: 12px;
-    margin: 6px;
-    position: absolute;
-    bottom: 10px;
-    left: 9px;
-}
+
+.btn-view-projects,
 .btn-get-intouch{
-    background: #410239;
-    color: #E5E5E5;
-    font-weight: bold;
-    border: 3px solid pink;
-    border-radius: 12px;
-    width: auto;
-    padding: 12px;
-    margin: 6px;
-    position: absolute;
-    bottom: 10px;
-    left: 150px;
+    background:#410239;
+    color:#E5E5E5;
+    font-weight:bold;
+    border:3px solid pink;
+    border-radius:12px;
+    padding:12px;
 }
 span{
     color: #410239;
     font-weight: bolder;
+}
+
+#h1-projects{
+    text-align: center;
+}
+
+.projects-container{
+    border: 2px solid rebeccapurple;
+    background: #410239;
+    padding: 12px;
+    border-radius: 12px;
+    margin: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.projects-tiles{
+    border: 2px solid rebeccapurple;
+    border-radius: 12px;
+    width:250px;
+}
+.projects-tiles-img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.btn-View-code,.btn-live-demo{
+    border: 2px solid rgb(121, 66, 104);
+    width: 120px;
+    padding: 7px;
+    margin: 9px auto;
+    border-radius: 12px;
+    background: #5e0452;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#h1-tools{
+    text-align: center;
+    margin: 22px auto;
+}
+.tools-container{
+    border: 2px solid rebeccapurple;
+    margin: 45px 12px;
+    border-radius: 12px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.tools-container h2{
+    padding: 12px;
+}
+.tools-tiles{
+    border: 2px solid rebeccapurple;
+    border-radius: 12px;
+    background: #410239;
+    color: aliceblue;
+    min-width: 150px;
+
+}
+
+.tools-img{
+    height:140px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.footer-container{
+    border: 2px solid rebeccapurple;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    background: #410239;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap: 0;
+    text-align: center;
+}
+.footer-nav-container{
+    width: 50%;
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.footer-nav-container li{
+    padding: 12px;
+    list-style: none;
+}
+.footer-nav-container a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.footer-socials-container{
+    width: 50%;
+}
+.footer-socials-container li{
+    padding: 7px;
+    list-style: none;
+}
+.footer-socials-container h3{
+    color: aliceblue;
+    margin: 5px;
+}
+.footer-socials-container a{
+    text-decoration: none;
+    color: aliceblue;
 }
