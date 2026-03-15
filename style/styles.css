@@ -20,7 +20,7 @@
     display: flex;
     list-style-type: none;
     margin: 20px;
-    width: 50%;
+    max-width: 320px;
     justify-content: flex-end;
     gap: 15px;
 }
@@ -46,10 +46,11 @@
     padding:5px;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width:900px;
     border-radius: 12px;
     background: #E5E5E5;
     display: flex;
+    margin:auto;
 }
 
 .about-info{
@@ -98,7 +99,8 @@ span{
     background: #410239;
     padding: 12px;
     border-radius: 12px;
-    margin: 12px;
+    margin: auto;
+    margin-top: 45px;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -135,15 +137,16 @@ span{
 }
 .tools-container{
     border: 2px solid rebeccapurple;
-    margin: 45px 12px;
+    margin: auto;
     border-radius: 12px;
     padding: 5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 5px;
+    gap: px;
     flex-wrap: wrap;
+    max-width: 900px;
 }
 .tools-container h2{
     padding: 12px;
@@ -153,7 +156,7 @@ span{
     border-radius: 12px;
     background: #410239;
     color: aliceblue;
-    min-width: 150px;
+    min-width: 130px;
 
 }
 
@@ -165,7 +168,8 @@ span{
 .footer-container{
     border: 2px solid rebeccapurple;
     padding: 12px;
-    margin: 12px;
+    margin: auto;
+    margin-top: 45px;
     border-radius: 12px;
     background: #410239;
     display: flex;
